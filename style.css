@@ -1,0 +1,43 @@
+.product-colors li{
+  margin: 30px;
+}
+.product-colors li a{
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 100px;
+  font-size: 0px;
+  cursor: pointer;
+}
+.product-colors{
+  list-style: none ;
+  display: flex;
+}
+.black{
+  background: black;
+}
+.red-black{
+  background: linear-gradient(red 50%, black 50%);
+}
+.red-blue{
+  background: linear-gradient(red 50%, rgb(0, 42, 255) 50%);
+}
+.red-white{
+  background: linear-gradient(red 50%, white 50%);
+}
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.product-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column; 
+}
+.product-images{
+  border:1px solid #dedede;
+  padding: 30px;
+}
